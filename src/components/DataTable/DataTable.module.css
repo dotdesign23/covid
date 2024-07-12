@@ -1,0 +1,93 @@
+/* DataTable.module.css */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.provinsiContainer {
+  width: 80%;
+  padding: 20px;
+}
+
+.provinsiContainer h1 {
+  color: #06d6a0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.provinsiContainer p {
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: var(--display-font-size, 20px);
+  color: var(--primary, #118AB2);
+}
+
+.provinsiTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px; /* Jarak antara table dan form */
+}
+
+.provinsiTable th,
+.provinsiTable td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.provinsiTable th {
+  text-align: left;
+  background-color: #f0f0f0;
+}
+
+.formContainer {
+  width: 80%;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formContent {
+  display: flex;
+  align-items: flex-start; /* Mengubah posisi item ke kiri */
+}
+
+.formImage {
+  width: 500px; /* Lebar gambar */
+  margin-right: 20px; /* Jarak antara gambar dan form */
+}
+
+.formContainer h1 {
+  color: #06d6a0;
+  margin-bottom: 20px;
+}
+
+.formContainer label {
+  color: black;
+  text-shadow: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formContainer input,
+.formContainer select,
+.formContainer button {
+  width: calc(100% - 20px); /* Lebar 100% minus padding */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #fff; /* Semitransparent background */
+  color: black;
+}
+
+.formContainer button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #06d6a0;
+}
+
+.formContainer button:hover {
+  background-color: #06d6a0;
+}

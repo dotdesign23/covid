@@ -1,0 +1,185 @@
+.container {
+  text-align: center; 
+  background: #fff;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 76px 122px 135px 122px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.title4__ {
+  margin-bottom: 1rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 20px);
+  color: var(--primary, #06D6A0);
+  
+}
+
+.title4__ p{
+  margin-bottom: 1rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 20px);
+  color: var(--primary, #118AB2);
+  
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 61px);
+  color: var(--primary, #06D6A0);
+}
+
+.cards {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px;
+}
+
+.card__ {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  background: #FFFFFF;
+  margin: 4rem 2.0rem;
+}
+
+.card__ h2{
+  text-align: center;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: 'Open-Sans', sans-serif;
+}
+
+.card__ p{
+  text-align: center;
+  font-size: 3.053rem;
+}
+
+.card__C{
+  color: #06D6A0;
+}
+.card__R{
+  color: #118AB2;
+}
+
+.card__D{
+  color: #EF476F;
+}
+
+
+
+
+.title5__ {
+  margin-bottom: 8px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-font-family, 'Poppins');
+  font-weight: var(--heading-2-font-weight, 500);
+  font-size: var(--heading-2-font-size, 39px);
+  color: var(--black-color-1, #073B4C);
+}
+
+.body__ {
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 61px);
+  color: var(--primary, #06D6A0);
+}
+
+.card1__ {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #FFFFFF;
+  position: relative;
+  margin: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 384px;
+}
+
+.title6__ {
+  margin: 0 0 8px 0.9px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-font-family, 'Poppins');
+  font-weight: var(--heading-2-font-weight, 500);
+  font-size: var(--heading-2-font-size, 39px);
+  color: var(--black-color-1, #073B4C);
+}
+
+.body1__ {
+  margin-right: 0.1px;
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 61px);
+  color: var(--secondary, #118AB2);
+}
+
+.card2__ {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  background: #FFFFFF;
+  position: relative;
+  margin: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 384px;
+}
+
+.title7__ {
+  margin: 0 1px 8px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: var(--heading-2-font-family, 'Poppins');
+  font-weight: var(--heading-2-font-weight, 500);
+  font-size: var(--heading-2-font-size, 39px);
+  color: var(--black-color-1, #073B4C);
+}
+
+.body2__ {
+  overflow-wrap: break-word;
+  font-family: var(--display-font-family, 'Poppins');
+  font-weight: var(--display-font-weight, 500);
+  font-size: var(--display-font-size, 61px);
+  color: var(--danger, #EF476F);
+}
+
+/* Medium Screen */
+@media (max-width: 768px) {
+  .card__ {
+    width: 100%;
+  }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+  /* 
+   * Nothing TODO HERE.
+   * We haven't styling Navbar.
+   */
+}
